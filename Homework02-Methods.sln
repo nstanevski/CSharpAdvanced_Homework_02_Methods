@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_LastDigitOfNumber", "02_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_LargerThanNeighbours", "03_LargerThanNeighbours\03_LargerThanNeighbours.csproj", "{87E83F5E-BB3C-4322-8EB6-A1E43FFCACC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_FirstLargerThanNeighbours", "04_FirstLargerThanNeighbours\04_FirstLargerThanNeighbours.csproj", "{C3746D96-85F8-463F-AA4A-B154E148B9F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{87E83F5E-BB3C-4322-8EB6-A1E43FFCACC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E83F5E-BB3C-4322-8EB6-A1E43FFCACC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E83F5E-BB3C-4322-8EB6-A1E43FFCACC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3746D96-85F8-463F-AA4A-B154E148B9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3746D96-85F8-463F-AA4A-B154E148B9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3746D96-85F8-463F-AA4A-B154E148B9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3746D96-85F8-463F-AA4A-B154E148B9F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
