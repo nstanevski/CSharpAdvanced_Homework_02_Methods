@@ -13,7 +13,6 @@ class ReverseNumber
         char[] charArr = str.ToCharArray();
         Array.Reverse(charArr);
         return new string(charArr);
-
     }
     
     private static double GetReversedNumber(double num)
