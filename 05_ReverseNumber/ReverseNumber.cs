@@ -19,16 +19,8 @@ class ReverseNumber
     {
         bool isNegative = num >= 0 ? false : true;
         num = Math.Abs(num);
-
         string numStr = num.ToString();
         numStr = ReverseString(numStr);
-        
-        //process leading/trailing zeroes,
-        //add leading zero if int part less than 1
-        numStr = numStr.TrimStart('0').TrimEnd('0', '.',',');
-        if (numStr.StartsWith(".") || numStr.StartsWith(","))
-            numStr = "0" + numStr;
-
         double result = double.Parse(numStr);
         return isNegative ? -result : result;
     }

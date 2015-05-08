@@ -12,7 +12,7 @@
 
 class GenericArraySort
 {
-    private static void GenericBubbleSort<T>(ref T[] genericArr) where T : IComparable
+    private static void GenericBubbleSort<T>(T[] genericArr) where T : IComparable
     {
         int len = genericArr.Length;
         for (int i = 0; i < len; i++)
@@ -38,17 +38,17 @@ class GenericArraySort
         {
             new DateTime(1969,7,8), new DateTime(1970,12,1), new DateTime(2005,11,22)
         };
-        GenericBubbleSort(ref dates);
+        GenericBubbleSort(dates);
         line = string.Join(", ", dates);
         Console.WriteLine(line);
         
         int[] intArr = new int[] { -5, 8, 2, -1, 5, 0, 7};
-        GenericBubbleSort(ref intArr);
+        GenericBubbleSort(intArr);
         line = string.Join(", ", intArr);
         Console.WriteLine(line);
 
         string[] names = new string[] {"John", "Peter", "Alex", "Иван", "Петър", "Алекс" };
-        GenericBubbleSort(ref names);
+        GenericBubbleSort(names);
         line = string.Join(", ", names);
         Console.WriteLine(line);
     }
