@@ -7,20 +7,19 @@
  */
 
 
-    class BiggerNumber
+class BiggerNumber
+{
+    private static int GetMax(int first, int second)
     {
-        private static int GetMax(int first, int second)
-        {
-            return first > second ? first : second;
-        }
-
-        static void Main()
-        {
-            int firstNumber = int.Parse(Console.ReadLine());
-            int secondNumber = int.Parse(Console.ReadLine());
-
-            int max = GetMax(firstNumber, secondNumber);
-            Console.WriteLine(max);
-        }
+        return first > second ? first : second;
     }
 
+    static void Main()
+    {
+        int firstNumber = int.Parse(Console.ReadLine());
+        int secondNumber = int.Parse(Console.ReadLine());
+
+        int max = GetMax(firstNumber, secondNumber);
+        Console.WriteLine(max);
+    }
+}

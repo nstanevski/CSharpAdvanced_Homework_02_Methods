@@ -15,6 +15,7 @@ class LastDigitOfNumber
 
         return digitWords[remainder];
     }
+
     static void Main()
     {
         int number = int.Parse(Console.ReadLine());
